@@ -180,20 +180,24 @@
 // console.log(Math.trunc(99.6552));
 // console.log(Math.abs(10 - 5000));
 
-let myName = "         Amr hendawy      ";
+// let myName = "         Amr hendawy      ";
+// console.log(myName);
+// console.log(myName[0]);
+// console.log(myName[4]);
+// console.log(myName.charAt(6));
 
-console.log(myName);
-console.log(myName[0]);
-console.log(myName[4]);
-console.log(myName.charAt(6));
+// console.log(myName.length);
+// console.log(myName.trim());
+// console.log(myName.trim());
 
-console.log(myName.length);
-console.log(myName.trim());
-console.log(myName.trim());
+// console.log(myName.toUpperCase());
+// console.log(myName.toLowerCase());
 
-console.log(myName.toUpperCase());
-console.log(myName.toLowerCase());
+// let finalText = myName.trim().charAt(10).toUpperCase().toLowerCase();
+// console.log(finalText);
 
-let finalText = myName.trim().charAt(10).toUpperCase().toLowerCase();
 
-console.log(finalText);
+
+
+
+

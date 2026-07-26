@@ -196,8 +196,49 @@
 // let finalText = myName.trim().charAt(10).toUpperCase().toLowerCase();
 // console.log(finalText);
 
+// let day = "Wednesday";
 
+// switch (day) {
+//   case "Satudray":
+//     console.log(`It is ${day} 1`);
+//     break;
+//   case "Satudray":
+//     console.log(`It is ${day} 2`);
+//     break;
+//   case "Monday":
+//     console.log(`It is ${day} 3`);
+//     break;
+//   case "Tuesday":
+//   case "Wednesday":
+//     console.log(`It is ${day} 3 and 4 `);
+//     break;
+//   default:
+//     console.log("Don't know the day");
+//     break;
+// }
 
+// let role = "admin";
+// switch (role) {
+//   case "admin":
+//     console.log("Full Acees");
+//     break;
+//   case "editor":
+//     console.log("Edit Access");
+//     break;
+//   case "user":
+//     console.log("Read Only");
+//     break;
+//   default:
+//     console.log("No Access");
+// }
 
+// let friends = [
+//   "Ahmed",
+//   "Waleed",
+//   [[["Gamal", "Seleem"], "Samir"], "Osama"],
+//   "Tamer",
+// ];
+// console.log(friends);
+// console.log(friends);
 
-
+// console.log(`Hello ${friends}`);

@@ -1,3 +1,4 @@
+//Assignment no. 2
 let num1 = 9;
 let str = "9";
 let str2 = "20";

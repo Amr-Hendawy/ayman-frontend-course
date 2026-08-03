@@ -68,11 +68,11 @@
 
 // Assignment no. 1 from lessons from 38 to 39 (I can not solve it, he gave so many variables)
 
-let day = "   friday  ";
+// let day = "   friday  ";
 // You Need To Remove Spaces And Make First Letter Capital => Friday
-let result = day.trim();
-result = result.charAt(0).toUpperCase() + day.trim().substring(1);
-console.log(result);
+// let result = day.trim();
+// result = result.charAt(0).toUpperCase() + day.trim().substring(1);
+// console.log(result);
 
 // let day = "Friday";
 // let day = "Saturday";
@@ -93,20 +93,26 @@ console.log(result);
 // // Output => "Its Not A Valid Day"
 
 switch (result) {
-  case 1:
+  case "Friday":
+  case "Saturday":
+  case "Sunday":
+    // day = result || "Saturday" || "Sunday";
     day = result || "Saturday" || "Sunday";
     console.log("No Appointments Available");
     break;
   case 2:
-    day = "Monday" || "Thursday";
+  case "Monday":
+  case "Thursday":
+    // day = "Monday" || "Thursday";
     console.log("From 10:00 AM To 5:00 PM");
     break;
   case 3:
-    day = "Tuesday";
+  // day = "Tuesday";
+  case "Tuesday":
     console.log("From 10:00 AM To 6:00 PM");
     break;
-  case 4:
-    day = "Wednesday";
+  case "Wednesday":
+    // day = "Wednesday";
     console.log("From 10:00 AM To 7:00 PM");
   default:
     console.log("Its Not A Valid Day");

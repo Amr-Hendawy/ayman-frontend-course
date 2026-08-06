@@ -29,3 +29,43 @@ console.log(
 ); // "Elzero"
 
 console.log(`${my[index][result1]}${my[index][result].toUpperCase()}`); // "rO"
+
+////////////////////////////////////////////////////////////////
+
+//التكليف 05
+
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+// Write 3 Solutions
+console.log(haystack.includes(needle));
+console.log(haystack.indexOf(needle));
+console.log(haystack.lastIndexOf(needle));
+
+haystack.includes(needle) == true
+  ? console.log("Found")
+  : console.log("Not Found");
+
+haystack.indexOf(needle) == true
+  ? console.log("Found")
+  : console.log("Not Found");
+
+haystack.lastIndexOf(needle) == true
+  ? console.log("Found")
+  : console.log("Not Found");
+
+///////////////////
+
+//التكليف 06
+
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+// Your Code Here
+
+index = arr2.length; //4
+
+console.log(
+  `${allArrs.concat(arr1, arr2).sort().slice(index).join("")}`.toLowerCase(),
+); // fxy

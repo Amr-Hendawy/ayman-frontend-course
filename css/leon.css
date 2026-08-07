@@ -5,9 +5,14 @@
     --section-padding: 60px;
     --main-duration: 0.3s;
 }
+
+/* 
 * {
     box-sizing: border-box;
-}
+    padding: 0;
+    margin: 0;
+} */
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -35,11 +40,13 @@ div {
         width: 750px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
@@ -70,18 +77,22 @@ img {
 .header .links .icon span:first-child {
     width: 100%;
 }
+
 .header .links .icon span:nth-child(2) {
     width: 60%;
     transition: var(--main-duration);
 }
+
 .header .links .icon span:last-child {
     width: 100%;
 }
+
 .header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
     height: 2px;
 }
+
 ._web-inspector-hide-shortcut_ {
     visibility: hidden !important;
 }
@@ -98,9 +109,11 @@ img {
     display: none;
     z-index: 1;
 }
+
 .header .links:hover ul {
     display: block;
 }
+
 .header .links ul::before {
     content: "";
     border-width: 10px;
@@ -117,8 +130,9 @@ li {
 }
 
 .header .links ul li:not(:last-child) a {
-    border-bottom: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
 }
+
 .header .links ul li a {
     display: block;
     padding: 15px;
@@ -126,9 +140,11 @@ li {
     color: #333;
     transition: var(--main-duration);
 }
+
 a {
     background-color: transparent;
 }
+
 a:-webkit-any-link {
     color: webkit link;
     cursor: pointer;
@@ -176,9 +192,9 @@ h1 {
 }
 
 .features .container {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
 }
 
 .container {
@@ -245,7 +261,7 @@ h2 {
     display: block;
 }
 
-.special-heading + p {
+.special-heading+p {
     margin-top: -20px;
     margin: -10px 0 0;
     font-size: 20px;
@@ -262,8 +278,8 @@ h2 {
 
 @media (max-width: 767px) {
     .services .services-content .srv {
-    flex-direction: column;
-    text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -281,7 +297,7 @@ h2 {
 
 .fa-sharp .fa-solid .fa-palette {
     display: inline-block;
-    
+
 }
 
 .fa-sharp .fa-solid .fa-palette::before {
@@ -293,7 +309,7 @@ h2 {
 }
 
 .services .services-content .srv .text h3 {
-    margin:  0 0 20px;
+    margin: 0 0 20px;
     text-align: center;
 }
 
@@ -502,4 +518,5 @@ a {
     padding: 30px 10px;
     text-align: center;
     font-size: 18px;
+
 }

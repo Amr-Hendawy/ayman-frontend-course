@@ -41,7 +41,7 @@ let haystack = ["PHP", "JS", "Python"];
 console.log(haystack.includes(needle));
 console.log(haystack.indexOf(needle));
 console.log(haystack.lastIndexOf(needle));
-
+// clever code
 haystack.includes(needle) == true
   ? console.log("Found")
   : console.log("Not Found");
@@ -53,6 +53,7 @@ haystack.indexOf(needle) == true
 haystack.lastIndexOf(needle) == true
   ? console.log("Found")
   : console.log("Not Found");
+// readable code
 
 ///////////////////
 

@@ -1,5 +1,7 @@
 /*
   Loop Challenge
+  - array myAdmins ==> stop looping when you encounter stop and beyond
+  - if myAdmin array item starts with a letter list the rest string with the same letter in the second array
 */
 
 let myAdmins = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
@@ -15,12 +17,14 @@ let myEmployees = [
   "Sameer",
 ];
 let counter = 0;
-for (i = 0; i < myAdmins.length; i++) {
-  if (myAdmins[i] === "Stop") {
-    break;
-  }
+
+for (let i = 0; i < myAdmins.length; i++) {
+  let admin = myAdmins[i];
+  if (admin === "Stop") break;
   counter++;
 }
+
+
 document.write(`<div>We Have ${counter} Admins</div>`);
 
 document.write(`<hr>`);

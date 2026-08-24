@@ -43,3 +43,24 @@ function calc(one, two, ...nums) {
 }
 
 console.log(calc(10, 50, 20)); // 80
+
+// Assignment no. 4 :
+
+function specialMix(...data) {
+  // Your Code Here
+  for (let i = 0; i < data.length; i++) {
+    if (typeof data[i] === "number") {
+      return data[0] + data[1] + data[2];
+    } else if (typeof data[i] === "string") {
+      let num = data.slice(0);
+      let result = num.split(data <= [0 - 20]);
+      console.log(result);
+    }
+    return specialMix();
+  }
+}
+
+console.log(specialMix(10, 20, 30)); // 60
+console.log(specialMix("10Test", "Testing", "20Cool")); // 30
+console.log(specialMix("Testing", "10Testing", "40Cool")); // 50
+console.log(specialMix("Test", "Cool", "Test")); // All Is Strings

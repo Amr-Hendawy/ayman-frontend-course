@@ -41,4 +41,25 @@
 //   endVal = 2026,
 //   excludeVal = 2025,
 //   endYearVal = 2020;
-getYears(10, 20);
+// getYears(10, 20);
+// let person1 = "Ahmed";
+// let person2 = "Mohamed";
+// let person3 = "Ali";
+// let person4 = "Samy";
+// let person5 = "Sameh";
+
+// let age1 = 20;
+// let age2 = 30;
+// let age3 = 40;
+// let age4 = 22;
+// let age5 = 34;
+
+// function teacherData(name, age) {
+//   return `His name is ${name} and age is ${age}`;
+// }
+
+// let person1 = teacherData("Ahmed", 15);
+// let person2 = teacherData("Mohamed", 15);
+// let person3 = teacherData("Ali", 15);
+// let person4 = teacherData("Ali", 15);
+// let person5 = teacherData("Sameh", 15);

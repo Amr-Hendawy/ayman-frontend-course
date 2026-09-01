@@ -1,7 +1,7 @@
 let x = [2, 4, 6];
 let y = [3, 7, 10];
 let totalX = (totalY = Xy = r = xPow = yPow = 0);
-n = x.length;
+let n = x.length;
 
 for (let i = 0; i < x.length; i++) {
   totalX = totalX + x[i];

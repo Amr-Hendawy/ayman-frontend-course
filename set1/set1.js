@@ -10,8 +10,11 @@ let arr = alphabetArr.filter(function (full) {
 
 console.log(arr);
 
-for (let i = 0; i < arr.length; i++) {
-  let miss = alphabetArr.length - arr.length;
-  miss === "" ? miss[i] : false;
-  console.log(miss[i]);
+let miss = null;
+for (let i = 0; i < alphabetArr.length; i++) {
+  if (alphabetArr[i] !== arr[i]) {
+    miss = alphabetArr[i];
+    break;
+  }
 }
+console.log(miss);

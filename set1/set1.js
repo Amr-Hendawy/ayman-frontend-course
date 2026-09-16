@@ -10,11 +10,26 @@ let arr = alphabetArr.filter(function (full) {
 
 console.log(arr);
 
-let miss = null;
+// for (let i = 0; i < arr.length; i++) {
+//   // 26 - 25 = 1
+//   // miss = 1
+//   //
+//   let miss = alphabetArr.length - arr.length;
+//   //
+//   miss === "" ? miss[i] : false;
+//   console.log(miss[i]);
+// }
 for (let i = 0; i < alphabetArr.length; i++) {
+  // 26 - 25 = 1
+  // miss = 1
+  //
   if (alphabetArr[i] !== arr[i]) {
-    miss = alphabetArr[i];
+    console.log(alphabetArr[i]);
     break;
   }
+
+  // let miss = alphabetArr.length - arr.length;
+  // //
+  // miss === "" ? miss[i] : false;
+  // console.log(miss[i]);
 }
-console.log(miss);

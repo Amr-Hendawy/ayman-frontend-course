@@ -3,7 +3,6 @@
 
 
 using System;
-using System.Security.Cryptography.X509Certificates;
 class Program
 {
 
@@ -19,9 +18,10 @@ class Program
 
 
         // 5-	Divide the portion of the array into new two arrays
+        // 6-	Call yourself twice, one for the left portion ,the other for the right portion
         MergeSort(array, start, midpoint);
         MergeSort(array, midpoint + 1, end);
-        // 6-	Call yourself twice, one for the left portion ,the other for the right portion
+        // -- Additional Point ==> Create Merge function and call(invoke) it here ⬇⬇⬇⬇⬇
         Merge(array, start, midpoint, end);
 
         // - Merge Function
@@ -31,6 +31,7 @@ class Program
 
         // 1-	Read the array(x), start, midpoint and end index
     }
+
     public static void Merge(int[] array, int start, int midpoint, int end)
     {
         int i, j, k;

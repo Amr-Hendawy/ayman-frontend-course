@@ -1,8 +1,20 @@
+function segregate(array, start, end) {
+  if (end <= start) {
+    return;
+  }
+  let mid = Math.floor((start + end) / 2);
+  segregate(array, start, mid);
+  segregate(array, mid + 1, end);
+  merge(array, start, mid, end);
+}
+
 function merge(array, start, mid, end) {
   let leftLength = mid - start + 1;
   let rightLength = end - mid;
   let leftArray = new Array(leftLength);
   let rightArray = new Array(rightLength);
+  // let leftArray = array.slice(start, mid + 1);
+  // let rightArray = array.slice(mid + 1, end + 1);
 
   for (let i = 0; i < leftLength; i++) {
     leftArray[i] = array[start + i];
@@ -39,16 +51,6 @@ function merge(array, start, mid, end) {
     j++;
     k++;
   }
-}
-
-function segregate(array, start, end) {
-  if (end <= start) {
-    return;
-  }
-  let mid = Math.floor((start + end) / 2);
-  segregate(array, start, mid);
-  segregate(array, mid + 1, end);
-  merge(array, start, mid, end);
 }
 
 let array = [6, -5, 12, 10, -9, -1];

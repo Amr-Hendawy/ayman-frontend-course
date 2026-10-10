@@ -1,0 +1,15 @@
+Activity Selection Problem Algorithm
+Written by both pseudo code and English Language 
+1- Inputs two arrays start and end
+2- results is array to return activity index
+3- activity 0 added by default to results
+
+i is and index for start array = 1
+j is and index for end array = 0
+
+Loop from i to start array length - 1
+- if start[i] >= end[j]
+  then
+- add i to results array
+  - j = i
+return results

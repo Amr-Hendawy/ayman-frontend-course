@@ -1,0 +1,6 @@
+Algorithm
+- Create array of length = 127 .... so that each index represents one character ... the value of the items in each index is the frequency of the character
+
+- For each Char in the text , find the proper index by getting the ASCII decimal code for the Char then increase the items value by 1
+
+- print the array

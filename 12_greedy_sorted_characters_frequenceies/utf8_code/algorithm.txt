@@ -1,0 +1,10 @@
+The Algorithm
+=============
+Let's use Hashtable
+- create hashtable the char is the key 
+    the frequency is the value
+- for each char in the string, check if there is a key in the hashtable with the same char
+- if not exist create one with value 1
+- if exist get one with value and add 1 to it
+- print the hashtable
+---------------------------------------------------------

@@ -1,0 +1,9 @@
+Agorithm
+========
+
+
+Properties of Huffman Coding methods
+====================================
+- No code could be used for more than one char
+- No code could be the same of other code prefix
+- Long codes used for the least frequency chars

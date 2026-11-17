@@ -15,6 +15,13 @@ function applyStyle() {
   localStorage.setItem("savedColor", selectColor);
   localStorage.setItem("savedSize", sizeSelect.value);
 }
+// // Load Saved Settings
+// fontSelect.value = localStorage.getItem("savedFont") || fontSelect.value;
+// colorSelect.value = localStorage.getItem("savedColor") || colorSelect.value;
+// sizeSelect.value = localStorage.getItem("savedSize") || sizeSelect.value;
+// // Apply Saved Settings
+// applyStyle();
+// console.log(fontSelect.value);
 
 fontSelect.addEventListener("change", applyStyle);
 colorSelect.addEventListener("change", applyStyle);
